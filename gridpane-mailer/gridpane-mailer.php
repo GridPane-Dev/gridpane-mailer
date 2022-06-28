@@ -1,7 +1,7 @@
 <?php
 /**
  * All this is Chad Butler, I just put it into a MU format to fit GridPane stack
- *                                                                          - Jeff Cleverley
+ * - Jeff Cleverley
  */
 add_action( 'phpmailer_init', 'use_smtp_email' );
 function use_smtp_email( $phpmailer ) {
